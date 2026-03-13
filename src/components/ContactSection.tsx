@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MapPin, Clock, Phone, Navigation } from "lucide-react";
+import { MapPin, Clock, Navigation } from "lucide-react";
 
 const ContactSection = () => (
   <section id="contact" className="py-20 bg-muted/50">
@@ -45,15 +45,7 @@ const ContactSection = () => (
               <p className="text-muted-foreground text-sm font-body">Open daily until 11 PM</p>
             </div>
           </div>
-          <div className="flex gap-4">
-            <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
-              <Phone className="text-primary" size={20} />
-            </div>
-            <div>
-              <h3 className="font-heading font-semibold text-foreground mb-1">Contact</h3>
-              <p className="text-muted-foreground text-sm font-body">Call us for reservations</p>
-            </div>
-          </div>
+
 
           <div className="flex flex-wrap gap-3 pt-4">
             <a

@@ -1,4 +1,4 @@
-import { MapPin, Clock, Phone } from "lucide-react";
+import { MapPin, Clock } from "lucide-react";
 
 const Footer = () => (
   <footer className="bg-primary py-12">
@@ -43,10 +43,7 @@ const Footer = () => (
               <Clock size={16} />
               Open daily until 11 PM
             </p>
-            <p className="flex items-center gap-2 text-primary-foreground/60 text-sm font-body">
-              <Phone size={16} />
-              Call for reservations
-            </p>
+
           </div>
         </div>
       </div>
